@@ -10,7 +10,7 @@ const NavBarOwner = () => {
   return (
     <div className='flex items-center justify-between px-6 md:px-10 py-4 text-gray-500 border-b border-borderColor relative transition-all'>
         <Link to='/'>
-            <img src={assets.logo} alt="" className='h-7'/>
+            <img src={assets.sirikirulalogo} alt="" className='h-7'/><span className='text-primary'>Siri Kirula</span>
         </Link>
         <p>Welcome, {user?.name || "Owner"}</p>
     </div>

@@ -46,12 +46,12 @@ const Testimonial = () => {
                             </div>
                         </div>
 
-                        <div className="flex items-center gap-1 mt-4">
+                        <div className="flex items-center gap-1 mt-4  ">
                             {Array(5).fill(0).map((_, index) => (
                                 <img key={index} src={assets.star_icon}/>
                             ))}
                         </div>
-                        <p className="text-gray-500 max-w-90 mt-4 font-light">"{testimonial.testimonial}"</p>
+                        <p className="text-gray-500 max-w-90 mt-4 font-light ">"{testimonial.testimonial}"</p>
                     </motion.div>
                 ))}
             </div>
