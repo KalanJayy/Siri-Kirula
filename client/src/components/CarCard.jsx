@@ -31,21 +31,21 @@ const CarCard = ({car}) => {
                         {car.brand} {car.model}
                     </h3>
                     <p className='text-muted-foreground text-sm'>
-                        {car.category} {car.year}
+                        {car.category} 
                     </p>
                 </div>
             </div>
 
             <div className='mt-4 grid grid-cols-2 gap-y-2 text-gray-600' >
-                <div className='flex items-center text-sm text-muted-foreground'>
+                <div className='flex items-center text-sm text-muted-foreground hidden'>
                     <img src={assets.users_icon} alt="" className='h-4 mr-2' />
                     <span>{car.seating_capacity} Seats</span>
                 </div>
-                <div className='flex items-center text-sm text-muted-foreground'>
+                <div className='flex items-center text-sm text-muted-foreground hidden'>
                     <img src={assets.fuel_icon} alt="" className='h-4 mr-2' />
                     <span>{car.fuel_type}</span>
                 </div>
-                <div className='flex items-center text-sm text-muted-foreground'>
+                <div className='flex items-center text-sm text-muted-foreground hidden'>
                     <img src={assets.car_icon} alt="" className='h-4 mr-2' />
                     <span>{car.transmission}</span>
                 </div>

@@ -61,12 +61,26 @@ const Hero = () => {
             </motion.button>
         </motion.form>
 
+        <div className='flex'> 
+            <motion.img
+            initial={{opacity:0, y:100}}
+            animate={{opacity:1, y:0}}
+            transition={{duration:0.8, delay:0.6}}
+        src={assets.herobridal} alt="car"  className='max-h-74'/>
         <motion.img
             initial={{opacity:0, y:100}}
             animate={{opacity:1, y:0}}
             transition={{duration:0.8, delay:0.6}}
-        src={assets.main_car} alt="car"  className='max-h-74'/>
+        src={assets.herobridal} alt="car"  className='max-h-74'/>
+        <motion.img
+            initial={{opacity:0, y:100}}
+            animate={{opacity:1, y:0}}
+            transition={{duration:0.8, delay:0.6}}
+        src={assets.herobridal} alt="car"  className='max-h-74'/>
+        </div>
     </motion.div>
+        
+    
   )
 }
 

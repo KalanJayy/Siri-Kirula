@@ -43,7 +43,7 @@ const CarDetails = () => {
     <div className='px-6 md:px-16 lg:px-24 xl:px-32 mt-16'>
       <button onClick={()=> navigate(-1)} className='flex items-center gap-2 mb-6 text-gray-500 cursor pointer'>
         <img src={assets.arrow_icon} alt="" className='rotate-180 opacity-65'/>
-        Back to all cars
+        Back to all products
       </button>
 
       <div className='grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12'>
@@ -67,14 +67,12 @@ const CarDetails = () => {
               <div>
                 <h1 className='text-3xl font-bold'>{car.brand} {car.model}</h1>
                 <p className='text-gray-500 text-lg'>
-                  {car.category} {car.year}
+                  {car.category} 
                 </p>
               </div>
               <hr className='border-borderColor my-6 '/>
               <div className='grid grid-cols-2 sm:grid-cols-4 gap-4'>
                 {[
-                  {icon:assets.users_icon, text: `${car.seating_capacity} Seats`},
-                  {icon:assets.fuel_icon, text: car.fuel_type},
                   {icon:assets.location_icon, text: car.location}
                 ].map(({icon,text})=>(
                   <motion.div 
@@ -94,7 +92,7 @@ const CarDetails = () => {
                 <p className='text-gray-500'>{car.description}</p>
               </div>
 
-              <div>
+              <div className='hidden'>
                 <h1 className='text-xl font-medium mb-3'>Features</h1>
                 <ul className='grid grid-cols-1 sm:grid-cols-2 gap-2'>
                   {
@@ -117,7 +115,7 @@ const CarDetails = () => {
                     initial={{opacity:0, y:30}}
                     animate={{opacity:1, y:0}}
                     transition={{duration:0.6, delay:0.3}}
-          onSubmit={handleSubmit} className='shadow-lg h-max sticky top-18 rounded-xl p-6 space-y-6 text-gray-500'>
+          onSubmit={handleSubmit} className='shadow-lg h-max sticky top-18 rounded-xl p-6 space-y-6 text-gray-500 hidden'>
             <p>{currency}{car.pricePerDay} <span className='text-base text-gray-400 font-normal'> per day</span> </p>
             <hr className='border-borderColor my-6'/>
             <div className='flex flex-col gap-2'>
