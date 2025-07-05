@@ -32,12 +32,12 @@ const Navbar = () => {
     initial={{y:-20, opacity:0}}
     animate={{y:0, opacity:1}}
     transition={{duration:0.5}}
-    className={`flex items-center justify-between px-6 md:px-16 lg:px-24 xl:px-32 py-4 text-gray-600 border-b border-borderColor relative transition-all ${location.pathname === "/" && "bg-light"}`}>
+    className={`flex z-20 items-center justify-between px-6 md:px-16 lg:px-24 xl:px-32 py-4 text-white  relative transition-all ${location.pathname === "/" && "bg-transparent"}`}>
         <Link to='/'>
             <motion.img whileHover={{scale:1.05}} src={assets.sirikirulalogo} alt="logo" className='h-8'/><span className='text-primary'>Siri Kirula</span>
         </Link>
         
-        <div className={`max-sm:fixed max-sm:h-screen max-sm:w-full max-sm: top-16 max-sm:border-t border-borderColor right-0 flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-8 max-sm: p-4 transition-all duration-300 z-50 ${location.pathname === "/" ? "bg-light": "bg-white"} ${open ? "max-sm:translate-x-0" : "max-sm:translate-x-full"}` }>
+        <div className={`max-sm:fixed max-sm:h-screen max-sm:w-full max-sm: top-16 max-sm:border-t border-borderColor right-0 flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-8 max-sm: p-4 transition-all duration-300 z-50 ${location.pathname === "/" ? "bg-transparent": "bg-white"} ${open ? "max-sm:translate-x-0" : "max-sm:translate-x-full"}` }>
             {menuLinks.map((link,index)=>(
                 <Link key={index} to={link.path}>
                     {link.name}
@@ -45,7 +45,7 @@ const Navbar = () => {
             ))}
 
             <div className='hidden lg:flex items-center text-sm gap-2 border border-borderColor px-3 rounded-full max-w-56'>
-                <input type="text" className='py-1.5 w-full bg-transparent outline-none placeholder-gray-500' placeholder='Search Products'/>
+                <input type="text" className='py-1.5 w-full bg-transparent outline-none placeholder-white-500' placeholder='Search Products'/>
                 <img src={assets.search_icon} alt="search" />
             </div>
 
