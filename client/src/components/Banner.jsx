@@ -27,7 +27,7 @@ const Banner = () => {
           initial={{opacity:0, x:50}}
           whileInView={{opacity:1, x:0}}
           transition={{duration:0.6, delay:0.4}}
-        src={assets.herobridal} alt="Bride" className='max-h-45 ' />
+        src={assets.sample} alt="Bride" className='max-h-45 ' />
     </motion.div>
   )
 }

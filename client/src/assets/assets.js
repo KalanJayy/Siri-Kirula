@@ -40,14 +40,16 @@ import car_image1 from "./car_image1.png"
 import car_image2 from "./car_image2.png"
 import car_image3 from "./car_image3.png"
 import car_image4 from "./car_image4.png"
-import sirikirulalogo from "./sirikirulalogo.jpeg"
+import sirikirulalogo from "./sirikirulalogo.png"
 import herobridal from "./herobridal.jpg"
 import staricon2 from "./staricon2.png"
 import product1 from "./product1.jpg"
+import sample from "./sample.png"
 
 export const cityList = ['Kiribathgoda', 'Kandy']
 
 export const assets = {
+    sample,
     logo,
     sirikirulalogo,
     herobridal,
