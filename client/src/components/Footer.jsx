@@ -27,7 +27,8 @@ const Footer = () => {
                         whileInView={{opacity:1}}
                         transition={{duration:0.5, delay:0.4}} 
                     className='max-w-80 mt-3'>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+                        At Siri Kirula Private Limited, we craft more than just jewelry — we preserve tradition, celebrate beauty, and deliver timeless elegance. Specializing in both traditional Kandyan and modern luxury designs, our collections are a tribute to Sri Lanka’s rich heritage and evolving style.
+Whether you're celebrating a milestone or gifting a memory, <br />Siri Kirula ensures every gem tells a story — your story.
                     </motion.p>
                     <motion.div 
                         initial={{opacity:0}}
@@ -45,7 +46,7 @@ const Footer = () => {
                     initial={{opacity:0, y:20}}
                     whileInView={{opacity:1, y:0}}
                     transition={{duration:0.6, delay:0.4}} 
-                className='flex flex-wrap justify-between w-1/2 gap-8'>
+                className='  w-1/2 gap-8'>
                     <h2 className='text-base font-medium text-gray-800 uppercase'>Resources</h2>
                     <ul className='mt-3 flex flex-col gap-1.5'>
                         <li><a href="#">Help Center</a></li>
@@ -58,15 +59,13 @@ const Footer = () => {
                 <div>
                     <h2 className='text-base font-medium text-gray-800 uppercase'>Contact</h2>
                     <ul className='mt-3 flex flex-col gap-1.5'>
-                        <li><a href="#">Help Center</a></li>
-                        <li><a href="#">Terms of services</a></li>
-                        <li><a href="#">Privacy Police</a></li>
-                        <li><a href="#">Insurance</a></li>
+                        <li><a href="#">+94 77 7777 777</a></li>
+                        <li><a href="#">test@test.com</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        
                     </ul>
                 </div> 
-                <div>
-                    
-                </div>
             </motion.div>
 
             <motion.div 

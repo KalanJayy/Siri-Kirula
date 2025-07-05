@@ -24,11 +24,16 @@ const Hero = () => {
 
         <div className="absolute inset-0 bg-black/40 z-0" />
 
+        <motion.img
+            initial={{opacity:0, y:100}}
+            animate={{opacity:1, y:0}}
+            transition={{duration:0.8, delay:0.6}}
+        src={assets.sirikirulalogo} alt="car"  className='h-30 z-20 mb-0'/>
         <motion.h1
             initial={{y:50, opacity:0}}
             animate={{y:0, opacity:1}}
             transition={{duration:0.8, delay:0.2}}
-        className='relative z-20 text-white text-4xl md:text-5xl font-semibold '>SIRI KIRULA <br /> LUXURY JEWELRY</motion.h1>
+        className='relative z-20 text-white text-4xl md:text-5xl font-semibold -mt-8'>SIRI KIRULA <br /> LUXURY JEWELRY</motion.h1>
 
         <motion.form 
             initial={{scale:0.95, opacity:0, y:50}}

@@ -6,20 +6,20 @@ import { motion } from 'motion/react';
 const Testimonial = () => {
 
     const testimonials = [
-        {   name: "Emma Rodriguez", 
-            address: "Barcelona, Spain", 
+        {   name: "Supun Bandara", 
+            address: "Colombo, Sri Lanka", 
             image: assets.testimonial_image_1, 
-            testimonial: "Exceptional service and attention to detail. Everything was handled professionally and efficiently from start to finish. Highly recommended!"  },
+            testimonial: "Absolutely stunning craftsmanship! I bought a traditional necklace set for my sister’s wedding and everyone kept asking where I got it. The details were flawless."  },
         {
-            name: "John Smith", 
-            address: "London, UK", 
+            name: "Raveen Silva", 
+            address: "Colombo, Sri Lanka", 
             image: assets.testimonial_image_2, 
-            testimonial: "Exceptional service and attention to detail. Everything was handled professionally and efficiently from start to finish. Highly recommended!"  },
+            testimonial: "Blown away by the service and quality. Their Kandyan designs feel so authentic, yet modern. It’s the perfect blend of heritage and style"  },
             
-        {   name: "John Smith", 
-            address: "London, UK", 
+        {   name: "Tharidu Adikari", 
+            address: "Kandy, Sri Lanka", 
             image: assets.testimonial_image_2, 
-            testimonial: "Exceptional service and attention to detail. Everything was handled professionally and efficiently from start to finish. Highly recommended!"  },
+            testimonial: "I’ve never felt more confident wearing jewelry. Each piece feels like it was made just for me — elegant, timeless, and truly luxurious."  },
     ];
 
 
