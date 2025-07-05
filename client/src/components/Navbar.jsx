@@ -32,7 +32,7 @@ const Navbar = () => {
     initial={{y:-20, opacity:0}}
     animate={{y:0, opacity:1}}
     transition={{duration:0.5}}
-    className={`flex z-20 items-center justify-between px-6 md:px-16 lg:px-24 xl:px-32 py-4 text-white  relative transition-all ${location.pathname === "/" && "bg-transparent"}`}>
+    className={`flex z-20 items-center justify-between px-6 md:px-16 lg:px-24 xl:px-32 py-4 text-gray-500  relative transition-all ${location.pathname === "/" && "bg-transparent text-white"}`}>
         <Link to='/'>
             <motion.img whileHover={{scale:1.05}} src={assets.sirikirulalogo} alt="logo" className='h-18'/>
         </Link>
