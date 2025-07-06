@@ -27,7 +27,7 @@ const Footer = () => {
                         whileInView={{opacity:1}}
                         transition={{duration:0.5, delay:0.4}} 
                     className='max-w-80 mt-3'>
-                        At Siri Kirula Private Limited, we craft more than just jewelry — we preserve tradition, celebrate beauty, and deliver timeless elegance. Specializing in both traditional Kandyan and modern luxury designs, our collections are a tribute to Sri Lanka’s rich heritage and evolving style.
+                        At Siri Kirula Private Limited, we craft more than just jewellery — we preserve tradition, celebrate beauty, and deliver timeless elegance. Specializing in both traditional Kandyan and modern luxury designs, our collections are a tribute to Sri Lanka’s rich heritage and evolving style.
 Whether you're celebrating a milestone or gifting a memory, <br />Siri Kirula ensures every gem tells a story — your story.
                     </motion.p>
                     <motion.div 

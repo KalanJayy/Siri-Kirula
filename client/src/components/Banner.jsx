@@ -11,7 +11,7 @@ const Banner = () => {
     className='flex flex-col md:flex-row md:items-start items-center justify-between px-8 min-md:pl-14 pt-10 bg-gradient-to-r from-[#400a0a] to-[#704040] max-w-6xl mx-3 md:mx-auto rounded-2xl overflow-hidden'>
         <div className='text-white'>
             <h2 className='text-3xl font-medium'>Timeless Elegance, Crafted to Perfection</h2>
-            <p className='mt-3 text-gray-300'>Discover handcrafted luxury jewelry that blends tradition with modern artistry.
+            <p className='mt-3 text-gray-300'>Discover handcrafted luxury jewellery that blends tradition with modern artistry.
     From Kandyan styles to contemporary classics — made with love in Sri Lanka.</p>
             <div className='flex'>
               <img src={assets.location_icon} alt="location" className='m-2 mt-5 h-5' />
