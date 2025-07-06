@@ -88,7 +88,7 @@ const Cars = () => {
         animate={{opacity:1}}
         transition={{duration:0.5, delay:0.6}} 
       className='px-6 md:px-16 lg:px-24 xl:px-32 mt-10'>
-        <p className='text-gray-500 xl:px-20 max-w-7xl mx-auto'>Showing {filteredCars.length} Cars</p>
+        <p className='text-gray-500 xl:px-20 max-w-7xl mx-auto'>Showing {filteredCars.length} products</p>
         <motion.div 
           initial={{opacity:0, y:20}}
           animate={{opacity:1, y:0}}

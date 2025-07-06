@@ -18,7 +18,7 @@ const Dashboard = () => {
   })
 
   const dashboardCards = [
-    {title: "Total Cars", value: data.totalCars, icon: assets.carIconColored},
+    {title: "Total Products", value: data.totalCars, icon: assets.carIconColored},
     {title: "Total Bookings", value: data.totalBookings, icon: assets.listIconColored},
     {title: "Pending", value: data.pendingBookings, icon: assets.cautionIconColored},
     {title: "Confirmed", value: data.completedBookings, icon: assets.listIconColored},
@@ -88,7 +88,7 @@ const Dashboard = () => {
           {/* Monthly Revenue */}
           <div className='p-4 md:p-6 mb-6 border border-borderColor rounded-md w-full md:max-w-xs'>
             <h1 className='text-lg font-medium'>Monthly Revenue</h1>
-            <p className='text-gray-500'>Revenue for currnet month</p>
+            <p className='text-gray-500'>Revenue for current month</p>
             <p className='text-3xl mt-6 font-semibold text-primary'>{currency}{data.monthlyRevenue}</p>
           </div>
         </div>
