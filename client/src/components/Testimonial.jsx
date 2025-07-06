@@ -39,7 +39,7 @@ const Testimonial = () => {
                     key={index} className="bg-white p-6 rounded-xl shadow-lg hover:-translate-y-1 transition-all duration-500">
 
                         <div className="flex items-center gap-3">
-                            <img className="w-12 h-12 rounded-full" src={testimonial.image} alt={testimonial.name} />
+                            <img className="w-12 h-12 rounded-full" src="" alt={testimonial.name} />
                             <div>
                                 <p className="text-xl">{testimonial.name}</p>
                                 <p className="text-gray-500">{testimonial.location}</p>
